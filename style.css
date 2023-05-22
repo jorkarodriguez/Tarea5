@@ -1,0 +1,179 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Estilos específicos */
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    padding: 5px;
+}
+
+header {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #ff6600;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    animation: scaleUp 1s infinite alternate;
+}
+
+.intro {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+.features {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.gallery {
+    background-color: #f2f2f2;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    animation: fadeInUp 1s ease-out;
+}
+
+.product img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.testimonials {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.proveedores {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Animaciones */
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
